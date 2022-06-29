@@ -1,0 +1,119 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    margin: 0;  
+}
+
+section {
+    padding: 0 14rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+button {
+    border: none;
+    border-radius: 24px;
+    height: 40px;
+    padding: 0 24px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+/**********
+
+IDs
+
+**********/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 250px;
+}
+
+#nav-links li {
+    display: inline;
+    list-style-type: none;
+}
+
+#hero-section {
+    background-color: #1F2937;
+    height: 700px;
+    display: flex;
+    flex-flow: column;
+}
+
+#hero-main {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+#hero-main-second {
+    display: flex;
+}
+
+.hero-text {
+    flex: 1;
+    margin: 0 4em 0 0;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: pink;
+}
+
+/**********
+
+TEXT
+
+**********/
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 2em;
+}
+
+#nav-links a {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.hero-margin {
+    margin: 0 0 40px 0;
+}
+
+.white-primary-text {
+    color: #F9FAF8;
+}
+
+.white-secondary-text {
+    color: #E5E7EB;
+}
