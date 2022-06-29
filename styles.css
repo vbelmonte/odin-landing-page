@@ -17,12 +17,18 @@ button {
     border-radius: 24px;
     height: 40px;
     padding: 0 24px;
+    font-size: 18px;
 }
 
 .hero-button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 18px;
+}
+
+.cta-button {
+    background-color: transparent;
+    border: solid 2px #F9FAF8;
+    color: #F9FAF8;
 }
 
 /**********
@@ -117,6 +123,10 @@ h4 {
     color: #1F2937;
 }
 
+.light-text {
+    color: #F9FAF8;
+}
+
 .line-height {
     line-height: 2em;
 }
@@ -201,4 +211,30 @@ TESTIMONIES
 .testimony-space {
     width: 75%;
     margin: 0 auto;
+}
+
+
+
+
+/**************
+
+CTA
+
+**************/
+
+#cta-section {
+    padding: 100px 14rem;
+}
+
+#cta-area {
+    display: flex;
+    border-radius: 24px;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #3882F6;
+    padding: 4rem 12rem;
+}
+
+#cta-text-area p {
+    margin: 0;
 }
