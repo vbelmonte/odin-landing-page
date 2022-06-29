@@ -108,6 +108,28 @@ h4 {
     color: #1F2937;
 }
 
+.testimony-customer {
+    margin: 2em 0;
+    text-align: right;
+}
+
+.dark-text {
+    color: #1F2937;
+}
+
+.line-height {
+    line-height: 2em;
+}
+
+p {
+    line-height: 2em;
+}
+
+#testimony-text {
+    font-weight: 100;
+    font-style: italic;
+}
+
 
 #nav-links a {
     font-size: 18px;
@@ -156,6 +178,27 @@ SERVICE CARDS
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 14rem;
     background-color: #F9FAF8;
+}
+
+.card-text p {
+    text-align: center;
+}
+
+
+/**************
+
+TESTIMONIES
+
+**************/
+
+#testimony-section {
+    background-color: #E5E7EB;
+    padding: 100px 14rem;
+}
+
+.testimony-space {
+    width: 75%;
+    margin: 0 auto;
 }
