@@ -64,6 +64,7 @@ nav {
 
 #hero-main-second {
     display: flex;
+    flex: 1;
 }
 
 .hero-text {
@@ -88,17 +89,25 @@ h1 {
     margin: 0;
 }
 
-h3 {
-    margin: 0;
-    font-size: 24px;
-}
-
 h2 {
     font-size: 18px;
     font-weight: normal;
     margin: 0;
     line-height: 2em;
 }
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 
 #nav-links a {
     font-size: 18px;
@@ -116,4 +125,37 @@ h2 {
 
 .white-secondary-text {
     color: #E5E7EB;
+}
+
+
+
+/**************
+
+SERVICE CARDS
+
+**************/
+
+.card {
+    width: 200px;
+    margin: 50px 40px;
+}
+
+.card-image {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 24px;
+    width: 200px;
+    height: 200px;
+}
+
+.card-layout {
+    display: flex;
+}
+
+#card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #F9FAF8;
 }
