@@ -55,11 +55,19 @@ nav {
     list-style-type: none;
 }
 
-#hero-section {
+/*#hero-section {
     background-color: #1F2937;
     height: 700px;
     display: flex;
     flex-flow: column;
+}*/
+
+header {
+    background-color: #1F2937;
+    height: 700px;
+    display: flex;
+    flex-flow: column;
+    padding: 0 14rem;
 }
 
 #hero-main {
