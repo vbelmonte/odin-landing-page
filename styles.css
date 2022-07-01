@@ -133,6 +133,7 @@ h4 {
 
 p {
     line-height: 2em;
+    font-size: 18px;
 }
 
 #testimony-text {
@@ -237,4 +238,22 @@ CTA
 
 #cta-text-area p {
     margin: 0;
+}
+
+
+/**************
+
+FOOTER
+
+**************/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+}
+
+footer p {
+    color: #F9FAF8;
 }
