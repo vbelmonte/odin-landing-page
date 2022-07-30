@@ -80,8 +80,15 @@ h4 {
     text-transform: uppercase;
 }
 
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #22333B;
+    margin: 20px 0px;
+}
+
 p {
-    font-size: 16px;
+    font-size: 14px;
     color: #888888;
     line-height: 24px;
 }
@@ -95,9 +102,15 @@ button {
     border: none;
 }
 
-.hero {
+.hero, .primary-button-color {
     background-color: #22333B;
     color: #F2F4F3;
+}
+
+.secondary-button-color {
+    background-color: transparent;
+    color: #22333B;
+    border: solid 1px #22333B;
 }
 
 #about {
@@ -109,15 +122,52 @@ button {
     background-color: #F2F4F3;
     display: flex;
     width: 1040px;
-    height: 500px;
     margin: auto;
     border-radius: 12px;
 }
 
-.about-card div {
+.about-description {
+    flex: 1;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about-photo {
     flex: 1;
 }
 
-.about-description {
-    padding: 50px;
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DADDD8;
+    padding: 150px 0px;
+    gap: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border-radius: 12px;
+    background-color: #F2F4F3;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.service-card div {
+    text-align: center;
+}
+
+.service-icons {
+    filter: invert(14%) sepia(16%) saturate(1116%) hue-rotate(154deg) brightness(100%) contrast(88%);
+    padding: 10px;
 }
